@@ -1,4 +1,4 @@
-# 🖌️ ECCV 2024 | PowerPaint: A Versatile Image Inpainting Model
+# PowerPaint: A Versatile Image Inpainting Model
 
 [**[ECCV 2024] | A Task is Worth One Word: Learning with Task Prompts for High-Quality Versatile Image Inpainting**](https://arxiv.org/abs/2312.03594)
 
