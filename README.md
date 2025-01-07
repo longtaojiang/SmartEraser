@@ -1,10 +1,10 @@
-# PowerPaint: A Versatile Image Inpainting Model
+# SmartEraser: A Smart Object Removal Model
 
-[**[ECCV 2024] | A Task is Worth One Word: Learning with Task Prompts for High-Quality Versatile Image Inpainting**](https://arxiv.org/abs/2312.03594)
+[**[ECCV 2024] | SmartEraser: Remove Anything from Images using Masked-Region Guidance**](https://arxiv.org/abs/2312.03594)
 
-[Junhao Zhuang](https://github.com/zhuang2002), [♦Yanhong Zeng](https://zengyh1900.github.io/), [Wenran Liu](https://github.com/liuwenran), [†Chun Yuan](https://www.sigs.tsinghua.edu.cn/yc2_en/main.htm), [†Kai Chen](https://chenkai.site/)
+[Longtao Jiang*](https://github.com/longtaojiang), [Zhendong Wang*](https://github.com/ZhendongWang6), [Jianming Bao*†](), [Wengang Zhou†](), [Dongdong Chen](), [Lei Shi](), [Dong Chen](), [Houqiang Li](),
 
-(♦project lead, †corresponding author)
+(*Equal contribution, †corresponding author)
 
 [![arXiv](https://img.shields.io/badge/arXiv-2312.03594-b31b1b.svg)](https://arxiv.org/abs/2312.03594)
 [![Project Page](https://img.shields.io/badge/PowerPaint-Website-green)](https://powerpaint.github.io/)
