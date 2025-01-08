@@ -6,19 +6,26 @@
 
 (*Equal contribution, †corresponding author)
 
-[![arXiv](https://img.shields.io/badge/arXiv-2312.03594-b31b1b.svg)](https://arxiv.org/abs/2312.03594)
+<!-- [![arXiv](https://img.shields.io/badge/arXiv-2312.03594-b31b1b.svg)](https://arxiv.org/abs/2312.03594)
 [![Project Page](https://img.shields.io/badge/PowerPaint-Website-green)](https://powerpaint.github.io/)
 [![Open in OpenXLab](https://cdn-static.openxlab.org.cn/app-center/openxlab_app.svg)](https://openxlab.org.cn/apps/detail/rangoliu/PowerPaint)
-[![HuggingFace Model](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model-blue)](https://huggingface.co/JunhaoZhuang/PowerPaint-v1)
+[![HuggingFace Model](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model-blue)](https://huggingface.co/JunhaoZhuang/PowerPaint-v1) -->
 
 **Your star means a lot for us to develop this project!** :star:
 
-PowerPaint is a high-quality versatile image inpainting model that supports text-guided object inpainting, object removal, shape-guided object insertion, and outpainting at the same time. We achieve this by learning with tailored task prompts for different inpainting tasks.
+SmartEraser is a object removal model built on the novel Masked-Region Guidance paradigm. SmartEraser outperforms existing methods by smartly identifying the target object to remove while effectively preserving the surrounding context. To facilitate research on this paradigm, we propose Syn4Removal, a large-scale, high-quality dataset containing over a million image triplets, specifically designed for object removal tasks. Through extensive experiments, we demonstrate that SmartEraser achieves superior performance in both quality and robustness compared to previous object removal methods.
 
-<img src='https://github.com/open-mmlab/mmagic/assets/12782558/acd01391-c73f-4997-aafd-0869aebcc915'/>
+### TODO
+
+- [ ] Release dataset synthesis pipeline.
+- [ ] Release Training and inference codes.
+- [ ] Release Syn4Removal 1M dataset.
+- [ ] Release SmartEraser pretrain models.
+
+<!-- <img src='https://github.com/open-mmlab/mmagic/assets/12782558/acd01391-c73f-4997-aafd-0869aebcc915'/> -->
 
 
-## 🚀 News
+<!-- ## 🚀 News
 
 **May 22, 2024**:fire:
 
@@ -46,9 +53,9 @@ PowerPaint is a high-quality versatile image inpainting model that supports text
 
 *Enhanced PowerPaint Model*
 
-- We are delighted to announce the release of more stable model weights. These refined weights can now be accessed on [Hugging Face](https://huggingface.co/JunhaoZhuang/PowerPaint-v1/tree/main). The `gradio_PowerPaint.py` file and [Online Demo](https://openxlab.org.cn/apps/detail/rangoliu/PowerPaint) have also been updated as part of this release.
+- We are delighted to announce the release of more stable model weights. These refined weights can now be accessed on [Hugging Face](https://huggingface.co/JunhaoZhuang/PowerPaint-v1/tree/main). The `gradio_PowerPaint.py` file and [Online Demo](https://openxlab.org.cn/apps/detail/rangoliu/PowerPaint) have also been updated as part of this release. -->
 
-## Get Started
+<!-- ## Get Started
 
 **Recommend Environment:** `cuda 11.8` + `python 3.9`
 
@@ -93,33 +100,9 @@ git lfs clone https://huggingface.co/JunhaoZhuang/PowerPaint_v2/ ./checkpoints/p
 
 python app.py --share --version ppt-v2 --checkpoint_dir checkpoints/ppt-v2
 ```
-Specifically, if you have downloaded the weights and want to skip the step of cloning the model, you can skip that step by enabling `--local_files_only`.
+Specifically, if you have downloaded the weights and want to skip the step of cloning the model, you can skip that step by enabling `--local_files_only`. -->
 
-
-
-### Text-Guided Object Inpainting
-
-After launching the Gradio interface, you can insert objects into images by uploading your image, drawing the mask, selecting the tab of `Text-guided object inpainting` and inputting the text prompt. The model will then generate the output image.
-
-|Input|Output|
-|---------------|-----------------|
-| <img src="assets/gradio_text_objinpaint.jpg"> | <img src="assets/gradio_text_objinpaint_result.jpg">
-
-
-
-### Text-Guided Object Inpainting with ControlNet
-
-Fortunately, PowerPaint is compatible with ControlNet. Therefore, users can generate object with a control image.
-
-|Input| Condition | Control Image |Output|
-|-------|--------|-------|----------|
-|<img src="assets/control_input.jpg"> | Canny| <img src="assets/canny.jpg"> | <img src="assets/canny_result.jpg">
-|<img src="assets/control_input.jpg"> | Depth| <img src="assets/depth.jpg"> | <img src="assets/depth_result.jpg">
-|<img src="assets/control_input.jpg"> | HED| <img src="assets/hed.jpg"> | <img src="assets/hed_result.jpg">
-|<img src="assets/pose_input.jpg"> | Pose| <img src="assets/pose_control.jpg"> | <img src="assets/pose_result.jpg">
-
-
-### Object Removal
+<!-- ### Object Removal
 
 For object removal, you need to select the tab of `Object removal inpainting` and you don't need to input any prompts. PowerPaint is able to fill in the masked region according to context background.
 
@@ -128,39 +111,9 @@ Specifically, we recommend to use 10 or higher value for Guidance Scale. If unde
 
 |Input|Output|
 |---------------|-----------------|
-| <img src="assets/gradio_objremoval.jpg"> | <img src="assets/gradio_objremoval_result.jpg">
+| <img src="assets/gradio_objremoval.jpg"> | <img src="assets/gradio_objremoval_result.jpg"> -->
 
-
-
-### Image Outpainting
-
-For image outpainting, you don't need to input any text prompt. You can simply select the tab of `Image outpainting` and adjust the slider for `horizontal expansion ratio` and `vertical expansion ratio`, then PowerPaint will extend the image for you.
-
-|Input|Output|
-|---------------|-----------------|
-| <img src="assets/gradio_outpaint.jpg"> | <img src="assets/gradio_outpaint_result.jpg">
-
-
-
-### Shape-Guided Object Inpainting
-
-PowerPaint also supports shape-guided object inpainting, which allows users to control the fitting degree of the generated objects to the shape of masks. You can select the tab of `Shape-guided object inpainting` and input the text prompt. Then, you can adjust the slider of `fitting degree` to control the shape of generated object.
-
-Taking the following cases as example, you can draw a square mask and use a high fitting degree, e.g., 0.95, to generate a bread to fit in the mask shape. For the same mask, you can also use a low fitting degree, e.g., 0.55, to generate a reasonable result for rabbit. However, if you use a high fitting degree for the 'square rabit', the result may look funny.
-
-Basically, we recommend to use 0.5-0.6 for fitting degree when you want to generate objects that are not constrained by the mask shape. If you want to generate objects that fit the mask shape, you can use 0.8-0.95 for fitting degree.
-
-
-|Prompt | Fitting Degree | Input| Output|
-|-------|--------|--------|---------|
-|a bread  | 0.95| <img src="assets/shapeguided_s1.jpg"> | <img src="assets/shapeguided_s1_result.jpg">
-|a rabbit | 0.55| <img src="assets/shapeguided_s1_rabbit.jpg"> | <img src="assets/shapeguided_s1_rabbit_result.jpg">
-|a rabbit | 0.95|<img src="assets/shapeguided_s1_rabbit_high.jpg"> | <img src="assets/shapeguided_s1_rabbit_high_result.jpg">
-|a rabbit | 0.95 | <img src="assets/accurate_rabbit.jpg"> | <img src="assets/accurate_rabbit_result.jpg">
-
-
-
-## Training
+<!-- ## Training
 
 1. Prepare training data. You may need to rewrite [`Datasets`](./powerpaint/datasets/__init__.py）per your need (e.g., data and storage formats). Here, we use petreloss to read training dataset from cloud storages. Besides, the recipe of datasets for training a versatile model can be tricky but intuitive.
 
@@ -183,21 +136,18 @@ accelerate launch --config_file configs/acc.yaml train_ppt1_sd15.py --config con
 # running on two nodes by slurm, e.g., 2 nodes with 8 gpus in total
 python submit.py --job-name ppt1_sd15 --gpus 16 train_ppt1_sd15.py --config configs/ppt1_sd15.yaml --output_dir runs/ppt1_sd15 --train_batch_size 64
 ```
-where `configs/acc.yaml` is the configuration file for using accelerate, and `configs/ppt1_sd15.yaml` is the configuration file for training PowerPaint-V1.
-
-
-
+where `configs/acc.yaml` is the configuration file for using accelerate, and `configs/ppt1_sd15.yaml` is the configuration file for training PowerPaint-V1. -->
 
 ## Contact Us
 
-**Junhao Zhuang**: zhuangjh23@mails.tsinghua.edu.cn
+**Longtao Jiang**: taotao707@mail.ustc.edu.cn
 
-**Yanhong Zeng**: zengyh1900@gmail.com
+**Zhendong Wang**: zhendongwang6@outlook.com
+
+**Jianming Bao**: jmbao@mail.ustc.edu.cn
 
 
-
-
-## BibTeX
+<!-- ## BibTeX
 
 ```
 @misc{zhuang2023task,
@@ -208,4 +158,4 @@ where `configs/acc.yaml` is the configuration file for using accelerate, and `co
       archivePrefix={arXiv},
       primaryClass={cs.CV}
 }
-```
+``` -->
