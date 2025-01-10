@@ -2,7 +2,7 @@
 
 [**[ECCV 2024] | SmartEraser: Remove Anything from Images using Masked-Region Guidance**](https://arxiv.org/abs/2312.03594)
 
-[Longtao Jiang*](https://github.com/longtaojiang), [Zhendong Wang*](https://github.com/ZhendongWang6), [Jianming Bao*†](), [Wengang Zhou†](), [Dongdong Chen](), [Lei Shi](), [Dong Chen](), [Houqiang Li](),
+[Longtao Jiang*](https://github.com/longtaojiang), [Zhendong Wang*](https://github.com/ZhendongWang6), [Jianmin Bao*†](), [Wengang Zhou†](), [Dongdong Chen](), [Lei Shi](), [Dong Chen](), [Houqiang Li](),
 
 (*Equal contribution, †corresponding author)
 
@@ -144,7 +144,7 @@ where `configs/acc.yaml` is the configuration file for using accelerate, and `co
 
 **Zhendong Wang**: zhendongwang6@outlook.com
 
-**Jianming Bao**: jmbao@mail.ustc.edu.cn
+**Jianmin Bao**: jmbao@mail.ustc.edu.cn
 
 
 <!-- ## BibTeX
