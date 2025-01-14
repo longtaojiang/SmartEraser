@@ -144,9 +144,6 @@ where `configs/acc.yaml` is the configuration file for using accelerate, and `co
 
 **Zhendong Wang**: zhendongwang6@outlook.com
 
-**Jianmin Bao**: jmbao@mail.ustc.edu.cn
-
-
 <!-- ## BibTeX
 
 ```
