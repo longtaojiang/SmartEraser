@@ -21,6 +21,7 @@ SmartEraser is a object removal model built on the novel Masked-Region Guidance 
 - [ ] Release Training and inference codes.
 - [ ] Release Syn4Removal 1M dataset.
 - [ ] Release SmartEraser pretrain models.
+- [ ] Release SmartEraser online demo for use.
 
 <!-- <img src='https://github.com/open-mmlab/mmagic/assets/12782558/acd01391-c73f-4997-aafd-0869aebcc915'/> -->
 
