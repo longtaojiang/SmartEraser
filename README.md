@@ -1,6 +1,6 @@
 # SmartEraser: A Smart Object Removal Model
 
-[**SmartEraser: Remove Anything from Images using Masked-Region Guidance**](https://arxiv.org/abs/2312.03594)
+[**SmartEraser: Remove Anything from Images using Masked-Region Guidance**](https://arxiv.org/abs/2501.08279)
 
 [Longtao Jiang*](https://github.com/longtaojiang), [Zhendong Wang*](https://github.com/ZhendongWang6), [Jianmin Bao*†](), [Wengang Zhou†](), [Dongdong Chen](), [Lei Shi](), [Dong Chen](), [Houqiang Li](),
 
