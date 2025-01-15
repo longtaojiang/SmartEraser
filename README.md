@@ -6,6 +6,9 @@
 
 (*Equal contribution, †corresponding author)
 
+Project Page: https://longtaojiang.github.io/smarteraser.github.io/
+Arxiv: https://arxiv.org/abs/2501.08279
+
 <!-- [![arXiv](https://img.shields.io/badge/arXiv-2312.03594-b31b1b.svg)](https://arxiv.org/abs/2312.03594)
 [![Project Page](https://img.shields.io/badge/PowerPaint-Website-green)](https://powerpaint.github.io/)
 [![Open in OpenXLab](https://cdn-static.openxlab.org.cn/app-center/openxlab_app.svg)](https://openxlab.org.cn/apps/detail/rangoliu/PowerPaint)
