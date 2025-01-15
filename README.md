@@ -7,6 +7,7 @@
 (*Equal contribution, †corresponding author)
 
 Project Page: https://longtaojiang.github.io/smarteraser.github.io/
+
 Arxiv: https://arxiv.org/abs/2501.08279
 
 <!-- [![arXiv](https://img.shields.io/badge/arXiv-2312.03594-b31b1b.svg)](https://arxiv.org/abs/2312.03594)
