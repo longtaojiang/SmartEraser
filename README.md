@@ -157,7 +157,7 @@ where `configs/acc.yaml` is the configuration file for using accelerate, and `co
 
 ## 💗 Acknowledgements
 
-This repository borrows heavily from [X-Paste]([https://github.com/showlab/Tune-A-Video](https://github.com/yoctta/XPaste)) and [diffusers]([https://github.com/google/prompt-to-prompt/](https://github.com/huggingface/diffusers)). Thanks to the authors for sharing their code and models.
+This repository borrows heavily from [X-Paste](https://github.com/yoctta/XPaste) and [diffusers](https://github.com/huggingface/diffusers). Thanks to the authors for sharing their code and models.
 
 ## 🧿 Maintenance
 
