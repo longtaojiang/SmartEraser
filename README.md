@@ -2,7 +2,7 @@
 
 [**SmartEraser: Remove Anything from Images using Masked-Region Guidance**](https://arxiv.org/abs/2501.08279)
 
-[Longtao Jiang*](https://github.com/longtaojiang), [Zhendong Wang*](https://github.com/ZhendongWang6), [Jianmin Bao*†](), [Wengang Zhou†](), [Dongdong Chen](), [Lei Shi](), [Dong Chen](), [Houqiang Li](),
+[Longtao Jiang*](https://longtaojiang.github.io/), [Zhendong Wang*](https://zhendongwang6.github.io/), [Jianmin Bao*†](https://jianminbao.github.io/), [Wengang Zhou†](http://staff.ustc.edu.cn/~zhwg/), [Dongdong Chen](https://www.dongdongchen.bid/), [Lei Shi](), [Dong Chen](http://www.dongchen.pro/), [Houqiang Li](http://staff.ustc.edu.cn/~lihq/en/),
 
 (*Equal contribution, †corresponding author)
 
