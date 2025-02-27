@@ -141,21 +141,25 @@ python submit.py --job-name ppt1_sd15 --gpus 16 train_ppt1_sd15.py --config conf
 ```
 where `configs/acc.yaml` is the configuration file for using accelerate, and `configs/ppt1_sd15.yaml` is the configuration file for training PowerPaint-V1. -->
 
-## Contact Us
-
-**Longtao Jiang**: taotao707@mail.ustc.edu.cn
-
-**Zhendong Wang**: zhendongwang6@outlook.com
-
-<!-- ## BibTeX
+## 📍 Citation 
 
 ```
-@misc{zhuang2023task,
-      title={A Task is Worth One Word: Learning with Task Prompts for High-Quality Versatile Image Inpainting},
-      author={Junhao Zhuang and Yanhong Zeng and Wenran Liu and Chun Yuan and Kai Chen},
-      year={2023},
-      eprint={2312.03594},
+@misc{jiang2025smarteraserremoveimagesusing,
+      title={SmartEraser: Remove Anything from Images using Masked-Region Guidance}, 
+      author={Longtao Jiang and Zhendong Wang and Jianmin Bao and Wengang Zhou and Dongdong Chen and Lei Shi and Dong Chen and Houqiang Li},
+      year={2025},
+      eprint={2501.08279},
       archivePrefix={arXiv},
-      primaryClass={cs.CV}
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2501.08279}, 
 }
-``` -->
+``` 
+
+## 💗 Acknowledgements
+
+This repository borrows heavily from [X-Paste]([https://github.com/showlab/Tune-A-Video](https://github.com/yoctta/XPaste)) and [diffusers]([https://github.com/google/prompt-to-prompt/](https://github.com/huggingface/diffusers)). Thanks to the authors for sharing their code and models.
+
+## 🧿 Maintenance
+
+This is the codebase for our research work. We are still working hard to update this repo, and more details are coming in days. If you have any questions or ideas to discuss, feel free to contact [Longtao Jiang](taotao707@mail.ustc.edu.cn) or [Zhendong Wang](zhendongwang6@outlook.com).
+
