@@ -1,4 +1,4 @@
-# SmartEraser: A Smart Object Removal Model
+# [CVPR 2025] SmartEraser: A Smart Object Removal Model
 
 [**SmartEraser: Remove Anything from Images using Masked-Region Guidance**](https://arxiv.org/abs/2501.08279)
 
