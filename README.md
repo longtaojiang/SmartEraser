@@ -4,9 +4,9 @@
 
 (* Equal contribution, † Corresponding author, ❤ Project leader)
 
-Project Page: https://longtaojiang.github.io/smarteraser.github.io/
+Project Page: [https://longtaojiang.github.io/smarteraser.github.io/](https://longtaojiang.github.io/smarteraser.github.io/)
 
-Arxiv: https://arxiv.org/abs/2501.08279
+Arxiv: [https://arxiv.org/abs/2501.08279](https://arxiv.org/abs/2501.08279)
 
 <!-- [![arXiv](https://img.shields.io/badge/arXiv-2312.03594-b31b1b.svg)](https://arxiv.org/abs/2312.03594)
 [![Project Page](https://img.shields.io/badge/PowerPaint-Website-green)](https://powerpaint.github.io/)
@@ -19,11 +19,10 @@ SmartEraser is a object removal model built on the novel Masked-Region Guidance 
 
 ### TODO
 
-- [ ] Release dataset synthesis pipeline.
 - [ ] Release Training and inference codes.
-- [ ] Release Syn4Removal 1M dataset.
 - [ ] Release SmartEraser pretrain models.
-- [ ] Release SmartEraser online demo for use.
+- [ ] Release dataset synthesis pipeline & synthesis process of Syn4Removal-1M.
+- [ ] Release evaluation benchmarks of RORD-Val, DEFACTO-Val, and Syn4Removal-Val.
 
 <!-- <img src='https://github.com/open-mmlab/mmagic/assets/12782558/acd01391-c73f-4997-aafd-0869aebcc915'/> -->
 
