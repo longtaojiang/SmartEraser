@@ -34,19 +34,19 @@ SmartEraser is a object removal model built on the novel Masked-Region Guidance 
 
 ## Syn4Removal Pipeline
 <p align="center">
-<img src="syn4removal.png" width=60%>
+<img src="syn4removal.png" width=100%>
 </p>
 
 ## SmartEraser Framework
 <p align="center">
-<img src="smarteraser.png" width=60%>
+<img src="smarteraser.png" width=100%>
 </p>
 
 ## Requirements
 ```
-conda create -n dire python=3.9
-conda activate dire
-pip install torch==2.0.0+cu117 torchvision==0.15.1+cu117 -f https://download.pytorch.org/whl/torch_stable.html
+conda create -n smarteraser python=3.10
+conda activate smarteraser
+pip install torch==2.1.0+cu121 torchvision==0.16.0+cu121 -f https://download.pytorch.org/whl/torch_stable.html
 pip install -r requirements.txt
 ```
 
