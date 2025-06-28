@@ -7,8 +7,8 @@ from transformers.modeling_attn_mask_utils import AttentionMaskConverter
 
 class CLIPVisualPrompt:
     def __init__(self, clip_path, feature_dim=768):
-        self.vision_model = CLIPVisionModelWithProjection.from_pretrained(clip_path, subfolder="vision_encoder")
-        self.text_model = CLIPTextModel.from_pretrained(clip_path, subfolder="text_encoder")
+        self.vision_model = CLIPVisionModelWithProjection.from_pretrained(clip_path)
+        self.text_model = CLIPTextModel.from_pretrained(clip_path)
         self.clip_mlp = IM2TEXT(feature_dim, 768, feature_dim)
         
     def train_vtoken(self, input_ids, image_features):
