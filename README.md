@@ -14,7 +14,7 @@ SmartEraser is a object removal model built on the novel Masked-Region Guidance 
 
 ## News
 
-- [2025/06/27] :fire: Release code, dataset pipeline and pre-trained models. [[BaiduDrive (password: smer)](https://pan.baidu.com/s/103shQ4HyVTk7_CsWywr_jA)]
+- [2025/06/27] :fire: Release code, dataset pipeline and pre-trained models. [[BaiduDrive (password: smer)](https://pan.baidu.com/s/103shQ4HyVTk7_CsWywr_jA)] & [[GoogleDrive](https://drive.google.com/file/d/1D49l9DM6X_s34ISDk0J853z1VdiBzs2N/view?usp=drive_link)]
 - [2025/06/27] :fire: Release evaluation benchmarks of RORD-Val, DEFACTO-Val, and Syn4Removal-Val. [[BaiduDrive (password: smer)](https://pan.baidu.com/s/1T2jbx2u9y5UQP7HSAa8ZQg)]
 - [2025/02/26] :tada: SmartEraser is accepted by CVPR 2025.
 - [2024/12/16] :sparkles: Release [paper](https://arxiv.org/abs/2501.08279).
