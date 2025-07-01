@@ -116,7 +116,7 @@ cd Model_framework
 bash train_region_inpaint.sh
 ```
 ## Inference
-We provide the pre-trained SmartEraser model in [[BaiduDrive (password: smer)](https://pan.baidu.com/s/103shQ4HyVTk7_CsWywr_jA)].
+We provide the pre-trained SmartEraser model in [[BaiduDrive (password: smer)](https://pan.baidu.com/s/103shQ4HyVTk7_CsWywr_jA)] & [[GoogleDrive](https://drive.google.com/file/d/1D49l9DM6X_s34ISDk0J853z1VdiBzs2N/view?usp=drive_link)].
 You should place all weight folders and files under the folder `Model_framework/ckpts/smarteraser-weights`, then you can evaluate the SmartEraser model by running the following command:
 ```
 cd Model_framework
