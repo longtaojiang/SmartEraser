@@ -117,13 +117,13 @@ bash train_region_inpaint.sh
 ```
 ## Inference
 We provide the pre-trained SmartEraser model in [[BaiduDrive (password: smer)](https://pan.baidu.com/s/103shQ4HyVTk7_CsWywr_jA)].
-You should place the entire weight folder under the folder `Model_framework/ckpts`, then you can evaluate the SmartEraser model by running the following command:
+You should place all weight folders and files under the folder `Model_framework/ckpts/smarteraser-weights`, then you can evaluate the SmartEraser model by running the following command:
 ```
 cd Model_framework
 bash inference_dis.sh
 ```
 ## Local Demo
-We also provide a inference demo `app_remove.sh`. Also, You should place the entire weight folder under the folder `Model_framework/ckpts`, then tou can run the following command to inference a single image with a hand-drawn mask:
+We also provide a inference demo `app_remove.sh`. Also, You should place all weight folders and files under the folder `Model_framework/ckpts/smarteraser-weights`, then tou can run the following command to inference a single image with a hand-drawn mask:
 ```
 cd Model_framework
 bash app_remove.sh
