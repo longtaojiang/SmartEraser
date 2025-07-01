@@ -14,7 +14,7 @@ SmartEraser is a object removal model built on the novel Masked-Region Guidance 
 
 ## News
 
-- [2025/06/27] :fire: Release code, dataset pipeline and pre-trained models. [[BaiduDrive (password: smer)](https://pan.baidu.com/s/103shQ4HyVTk7_CsWywr_jA)] & [[GoogleDrive](https://drive.google.com/file/d/1D49l9DM6X_s34ISDk0J853z1VdiBzs2N/view?usp=drive_link)]
+- [2025/06/27] :fire: Release code, dataset pipeline and pre-trained models. [[BaiduDrive (password: smer)](https://pan.baidu.com/s/103shQ4HyVTk7_CsWywr_jA)] & [[GoogleDrive](https://drive.google.com/file/d/1D49l9DM6X_s34ISDk0J853z1VdiBzs2N/view)]
 - [2025/06/27] :fire: Release evaluation benchmarks of RORD-Val, DEFACTO-Val, and Syn4Removal-Val. [[BaiduDrive (password: smer)](https://pan.baidu.com/s/1T2jbx2u9y5UQP7HSAa8ZQg)]
 - [2025/02/26] :tada: SmartEraser is accepted by CVPR 2025.
 - [2024/12/16] :sparkles: Release [paper](https://arxiv.org/abs/2501.08279).
@@ -116,7 +116,7 @@ cd Model_framework
 bash train_region_inpaint.sh
 ```
 ## Inference
-We provide the pre-trained SmartEraser model in [[BaiduDrive (password: smer)](https://pan.baidu.com/s/103shQ4HyVTk7_CsWywr_jA)] & [[GoogleDrive](https://drive.google.com/file/d/1D49l9DM6X_s34ISDk0J853z1VdiBzs2N/view?usp=drive_link)].
+We provide the pre-trained SmartEraser model in [[BaiduDrive (password: smer)](https://pan.baidu.com/s/103shQ4HyVTk7_CsWywr_jA)] & [[GoogleDrive](https://drive.google.com/file/d/1D49l9DM6X_s34ISDk0J853z1VdiBzs2N/view)].
 You should place all weight folders and files under the folder `Model_framework/ckpts/smarteraser-weights`, then you can evaluate the SmartEraser model by running the following command:
 ```
 cd Model_framework
